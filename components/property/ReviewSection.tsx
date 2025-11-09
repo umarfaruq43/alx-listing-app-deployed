@@ -35,7 +35,7 @@ const ReviewSection: React.FC<{ propertyId: string }> = ({ propertyId }) => {
         <h3 className='text-2xl mb-8 font-semibold'>Reviews</h3>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
           {reviews?.map((item, index) => (
-            <div className=' pb-4 mb-4'>
+            <div className=' pb-4 mb-4' key={index}>
               <div className='flex items-center mb-6'>
                 <img
                   src={item?.avatar}
