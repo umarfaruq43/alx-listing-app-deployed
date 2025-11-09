@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../common/Button';
 import Image from 'next/image';
-import { categories } from '@/constants';
+
 
 const Header: React.FC = () => {
   return (

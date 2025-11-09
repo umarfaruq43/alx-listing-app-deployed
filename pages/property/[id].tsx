@@ -1,9 +1,7 @@
-import { PROPERTYLISTINGSAMPLE } from '@/constants/index';
 import { useRouter } from 'next/router';
 import PropertyDetail from '@/components/property/PropertyDetail';
 import BookingSection from '@/components/property/BookingSection';
 import ReviewSection from '@/components/property/ReviewSection';
-import { review } from '@/constants/index';
 import PropertyImage from '@/components/property/PropertyImages';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
@@ -49,9 +47,9 @@ export default function PropertyPage() {
 
   return (
     <>
-      <head>
+      <div>
         <title>Property Details</title>
-      </head>
+      </div>
       <main>
         <div className=''>
           <PropertyImage property={property} />

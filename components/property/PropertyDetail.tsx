@@ -1,5 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import { PropertyProps } from '@/interfaces/index';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import {
   Wifi,
   Bed,

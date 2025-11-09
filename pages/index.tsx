@@ -1,12 +1,9 @@
 import Image from 'next/image';
 import Button from '@/components/common/Button';
 import Pill from '@/components/common/Pill';
-import { PROPERTYLISTINGSAMPLE } from '@/constants';
 import React, { useEffect, useState } from 'react';
 import { categories } from '@/constants';
-import Link from 'next/link';
 import dynamic from 'next/dynamic';
-import Head from 'next/head';
 import PropertyCard from "@/components/property/PropertyCard";
 import axios from 'axios';
 import { PropertyProps } from '@/interfaces';
