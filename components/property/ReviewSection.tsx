@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+
 import { ReviewProps } from '@/interfaces';
 import axios from 'axios';
 import { useEffect, useState } from 'react';

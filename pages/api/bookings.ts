@@ -1,6 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { NextApiRequest, NextApiResponse } from "next";
 
-let submissions: any[] = []; // move outside to persist in memory during runtime
+const submissions: any[] = []; // move outside to persist in memory during runtime
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
     if (req.method === "POST") {
